@@ -1,1 +1,200 @@
+* {
+  margin: 0;
+  font-family: 'Noto Sans Mono', monospace;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+body {
+  background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
+}
+
+/* CABEÇA DE NAVEGAÇÃO*/
+header {
+  background: black;
+  height: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+/* MENU DE NAVEGAÇÃO*/
+.menu-principal {
+  font-size: 15px;
+  position: relative;
+  top: 30px;
+  margin-left: 50px;
+  transition: 0.35s;
+}
+
+.menu-principal:hover {
+  color: rgb(224, 57, 57);
+  font-size: 20px;
+}
+
+/* CENTRALIZAÇÃO DO CORPO*/
+.centralização {
+  position: relative;
+  height: 500px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.titulo {
+  font-size: 30px;
+  margin: 50px 0 45px 0;
+  text-transform: uppercase;
+}
+
+/*FOTO DE PERFIL*/
+.perfil {
+  border-radius: 20px;
+  width: 10%;
+  position: relative;
+  margin: 10px;
+  border: 1px solid rgb(235, 222, 79);
+  overflow: hidden;
+}
+
+.frontend {
+  font-weight: bold;
+  color: #04D361;
+  font-style: italic;
+}
+
+button {
+  margin-top: px;
+  color: #000000;
+  font-style: italic;
+  border-radius: 5px;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: #73ca5d;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tittle-center {
+  margin: 85px 85px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+/* ABA SOBRE*/
+.sobre {
+  margin: 60px 300px 0px 300px;
+  background: rgb(108, 123, 200);
+  background: radial-gradient(circle, rgba(108, 123, 200, 1) 0%, rgba(98, 97, 204, 1) 100%);
+  border: 1.5px solid rgb(245, 207, 190);
+  border-radius: 10px;
+  padding: 50px 35px 50px 35px;
+  margin-bottom: 100px;
+}
+
+.redes {
+  position: relative;
+  height: 150px;
+  text-align: center;
+}
+
+.social {
+  position: relative;
+  padding: 10px 15px 10px 15px;
+  margin: 0 15px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 3px solid;
+  border-radius: 20px 10px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.linkedin:hover {
+  color: rgb(51, 51, 151);
+  font-size: 19px;
+}
+
+.instagram:hover {
+  color: rgb(241, 162, 14);
+  font-size: 19px;
+}
+
+.github:hover {
+  color: rgb(150, 148, 211);
+  font-size: 19px;
+}
+
+.whatsapp:hover {
+  color: rgb(66, 202, 35);
+  font-size: 19px;
+}
+
+.card {
+  width: 100px;
+  display: inline-block;
+  background-color: rgb(108, 123, 200);
+  padding: 50px 50px 0;
+  margin: 50px 30px 50px;
+  border-radius: 15px;
+  transition: all 0.5s;
+  border: 1px solid rgb(71, 92, 87);
+}
+
+.tec {
+  color: rgb(108, 123, 200);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.card:hover {
+  width: 130px;
+  background-color: rgb(255, 255, 255);
+}
+
+.projetos {
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.img-projetos {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 15px 15px 0 15px;
+  transition: 0.70s;
+}
+
+.img-projetos:hover {
+  width: 600px;
+  height: 600px;
+  opacity: 0.4;
+}
+
+.em-breve {
+  width: 200px;
+  height: 150px;
+  padding: 150px;
+  display: inline-block;
+  margin: 15px 15px 0 15px;
+  border-radius: 15px;
+  background-image: url(images/breve.gif);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+
+@media screen and (max-width:767px){
+  header{width: 405px;}
+  .titulo{font-size: 18px; }
+  .perfil{width: 150px;}
+  .sobre{margin: 25px 35px 0px 35px; font-size: 80%; padding: 20px 20px 20px 20px;}
+  .social{font-size: 15px;}
+  .card{width: 35px; margin: 10px 5px 10px; padding: 35px 30px 15px 30px;}
+  .tec{font-size: 11px;}
+  .card:hover {width: 65px; background-color: rgb(255, 255, 255);
+  }
+}
 
