@@ -156,7 +156,6 @@ button:hover {
 .projetos {
   position: relative;
   text-align: center;
-  padding-bottom: 50px;
 }
 
 .img-projetos {
@@ -178,23 +177,90 @@ button:hover {
   height: 150px;
   padding: 150px;
   display: inline-block;
-  margin: 15px 15px 0 15px;
+  margin: 15px 15px 15px 15px;
   border-radius: 15px;
   background-image: url(images/breve.gif);
   font-weight: bold;
   font-style: italic;
   font-size: 25px;
+  transition: 0.7s;
 }
 
-@media screen and (max-width:767px){
-  header{width: 405px;}
-  .titulo{font-size: 18px; }
-  .perfil{width: 150px;}
-  .sobre{margin: 25px 35px 0px 35px; font-size: 80%; padding: 20px 20px 20px 20px;}
-  .social{font-size: 15px;}
-  .card{width: 35px; margin: 10px 5px 10px; padding: 35px 30px 15px 30px;}
-  .tec{font-size: 11px;}
-  .card:hover {width: 65px; background-color: rgb(255, 255, 255);
+.em-breve:hover {
+  width: 270px;
+  height: 170px;
+  opacity: 0.4;
+}
+
+@media screen and (max-width:767px) {
+  header {
+    width: 415px;
+    height: 50px;
+  }
+
+  .menu-principal {
+    font-size: 10px;
+    margin: 5px 0px 5px 10px;
+    top: 15px;
+  }
+
+  .titulo {
+    font-size: 18px;
+  }
+
+  .perfil {
+    width: 150px;
+  }
+
+  .sobre {
+    margin: 25px 35px 0px 35px;
+    font-size: 80%;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .social {
+    font-size: 10px;
+    margin: 0px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  .card {
+    width: 35px;
+    margin: 10px 5px 10px;
+    padding: 35px 30px 15px 30px;
+  }
+
+  .tec {
+    font-size: 11px;
+  }
+
+  .card:hover {
+    width: 65px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .tittle-center {
+    margin: 80px 15px 80px 15px;
+  }
+
+  .img-projetos {
+    width: 250px;
+    height: 250px;
+  }
+
+  .img-projetos:hover {
+    width: 260px;
+    height: 260px;
+  }
+
+  .em-breve {
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+  }
+
+  .em-breve:hover {
+    width: 260px;
+    height: 250px;
   }
 }
-
