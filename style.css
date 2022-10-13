@@ -194,7 +194,7 @@ button:hover {
 
 @media screen and (max-width:767px) {
   header {
-    width: 415px;
+    width: 767px;
     height: 50px;
   }
 
@@ -221,7 +221,7 @@ button:hover {
   }
 
   .social {
-    font-size: 10px;
+    font-size: 13px;
     margin: 0px 0px 0px 0px;
     padding: 5px 10px 5px 10px;
   }
